@@ -1,0 +1,253 @@
+{
+    "havoc": {
+        "fullauto": {
+            "jpName": "ハボック",
+            "type": "AR",
+            "ammo": "energy",
+            "basicDamage": 18,
+            "headDamage": 36,
+            "legsDamage": 14,
+            "rpm": 672,
+            "magazineSize": [
+                24,
+                28,
+                32,
+                36
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300
+        }
+    },
+    "flatline": {
+        "fullauto": {
+            "jpName": "フラットライン",
+            "type": "AR",
+            "ammo": "heavy",
+            "basicDamage": 19,
+            "headDamage": 38,
+            "legsDamage": 14,
+            "rpm": 600,
+            "magazineSize": [
+                20,
+                25,
+                28,
+                30
+            ],
+            "reloadTime": [
+                3.2,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300
+        },
+        "anvilReceiver": {
+            "jpName": "フラットライン(アンビルレシーバー)",
+            "type": "AR",
+            "ammo": "heavy",
+            "basicDamage": 43,
+            "headDamage": 86,
+            "legsDamage": 39,
+            "rpm": 174,
+            "magazineSize": [
+                10,
+                13,
+                14,
+                15
+            ],
+            "reloadTime": [
+                3.2,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300,
+            "ammoPerShot": 2
+        }
+    },
+    "g7": {
+        "semiauto": {
+            "jpName": "G7スカウト",
+            "type": "AR",
+            "ammo": "light",
+            "basicDamage": 34,
+            "headDamage": 60,
+            "legsDamage": 26,
+            "rpm": 240,
+            "magazineSize": [
+                10,
+                15,
+                18,
+                20
+            ],
+            "reloadTime": [
+                2.4,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                3.0,
+                null,
+                null
+            ],
+            "hsDistance": null
+        }
+    },
+    "hemlok": {
+        "burst": {
+            "jpName": "ヘムロック(バースト)",
+            "type": "AR",
+            "ammo": "heavy",
+            "basicDamage": 20,
+            "headDamage": 35,
+            "legsDamage": 15,
+            "rpm": null,
+            "magazineSize": [
+                10,
+                15,
+                18,
+                20
+            ],
+            "reloadTime": [
+                2.4,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                2.85,
+                null,
+                null
+            ],
+            "hsDistance": 300,
+            "burstRounds": 3,
+            "burstRpm": 930,
+            "burstDelay": 0.280
+        },
+        "semiauto": {
+            "jpName": "ヘムロック(セミ)",
+            "type": "AR",
+            "ammo": "heavy",
+            "basicDamage": 20,
+            "headDamage": 35,
+            "legsDamage": 15,
+            "rpm": 384,
+            "magazineSize": [
+                10,
+                15,
+                18,
+                20
+            ],
+            "reloadTime": [
+                2.4,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                2.85,
+                null,
+                null
+            ],
+            "hsDistance": 300
+        }
+    },
+    "r301": {
+        "fullauto": {
+            "jpName": "R-301(フル)",
+            "type": "AR",
+            "ammo": "light",
+            "basicDamage": 14,
+            "headDamage": 28,
+            "legsDamage": 11,
+            "rpm": 810,
+            "magazineSize": [
+                18,
+                20,
+                25,
+                28
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300
+        },
+        "anvilReceiver": {
+            "jpName": "R-301(アンビル)",
+            "type": "AR",
+            "ammo": "light",
+            "basicDamage": 35,
+            "headDamage": 70,
+            "legsDamage": 32,
+            "rpm": 210,
+            "magazineSize": [
+                18,
+                20,
+                25,
+                28
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300,
+            "ammoPerShot": 2
+        }
+    },
+    "repeater": {
+        "semiauto": {
+            "jpName": "30-30 リピーター",
+            "type": "AR",
+            "ammo": "heavy",
+            "basicDamage": 42,
+            "headDamage": 74,
+            "legsDamage": 32,
+            "rpm": 231,
+            "magazineSize": [
+                6,
+                8,
+                10,
+                12
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "hsDistance": 300
+        }
+    }
+}
