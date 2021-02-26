@@ -1,13 +1,7 @@
 import json
 
-# encodingのところは後で消す
-# file = open("../static/weapons.json", "r", encoding="utf-8_sig")
-
-fr = open("../static/weapons.json", "r", encoding="utf-8")
-w_data = json.load(fr)
-fr.close()
-
-# print("{}".format(json.dumps(w_data["g7"]["semiauto"], indent=4)))
+with open("weapons.json", "r", encoding="utf-8") as fr:
+    w_data = json.load(fr)
 
 i = 0
 data = []
@@ -20,15 +14,10 @@ while True:
     if total_damage >= 225:
         break
 
-# print(data)
-
 ttk_data = {"label": w_data["g7"]["semiauto"]["jpName"],
             "borderColor": "#6ACEA8",
             "steppedLine": True,
             "data": data}
 
-# print(ttk_data)
-
-fw = open("../static/g7-ttk.json", "w", encoding="utf-8")
-json.dump(ttk_data, fw, ensure_ascii=False)
-fw.close()
+with open("../assets/g7-ttk.json", "w", encoding="utf-8") as fw:
+    json.dump(ttk_data, fw, ensure_ascii=False)

@@ -1,5 +1,6 @@
 <script>
 import { Line } from "vue-chartjs";
+import g7Datasets from "../assets/g7-ttk.json"
 export default {
   extends: Line,
   data() {
@@ -136,6 +137,7 @@ export default {
               },
             ],
           },
+          g7Datasets
         ],
       },
       options: {
