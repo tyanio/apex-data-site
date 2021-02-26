@@ -3,8 +3,9 @@ import json
 # encodingのところは後で消す
 # file = open("../static/weapons.json", "r", encoding="utf-8_sig")
 
-file = open("../static/weapons.json", "r")
-w_data = json.load(file)
+fr = open("../static/weapons.json", "r", encoding="utf-8")
+w_data = json.load(fr)
+fr.close()
 
 # print("{}".format(json.dumps(w_data["g7"]["semiauto"], indent=4)))
 
@@ -28,5 +29,6 @@ ttk_data = {"label": w_data["g7"]["semiauto"]["jpName"],
 
 # print(ttk_data)
 
-fs = open("../static/havoc-ttk.json", "w")
-json.dump(ttk_data, fs)
+fw = open("../static/g7-ttk.json", "w", encoding="utf-8")
+json.dump(ttk_data, fw, ensure_ascii=False)
+fw.close()
