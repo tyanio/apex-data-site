@@ -1,15 +1,13 @@
 <script>
 import { Line } from "vue-chartjs";
-import ttkDatasets from "@/assets/ttk.json"
+import ttkDatasets from "@/assets/ttk.json";
 export default {
+  props: ["datasets"],
   extends: Line,
   data() {
     return {
       chartdata: {
-        datasets: [
-          ttkDatasets.r301.fullauto,
-          ttkDatasets.hemlok.semiauto,
-        ],
+        datasets: this.datasets,
       },
       options: {
         scales: {
