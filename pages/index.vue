@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h1>vue-chartjsで棒グラフ</h1>
+    <h1>Apex Data Site</h1>
+    <WeaponButtons />
     <BarChart />
   </div>
 </template>
 
 <script>
-import BarChart from '@/components/BarChart.vue'
+import BarChart from "@/components/BarChart.vue";
 
 export default {
   components: {
-    BarChart
-  }
-}
+    BarChart,
+  },
+};
 </script>

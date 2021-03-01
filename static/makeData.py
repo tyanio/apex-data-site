@@ -1,5 +1,6 @@
 import json
 
+
 def select_color(ammo_type):
     if ammo_type == "light":
         return "#f49a4a"
@@ -14,51 +15,59 @@ def select_color(ammo_type):
     else:
         return "#FFFFFF"
 
+
 with open("weapons.json", "r", encoding="utf-8") as fr:
-    w_data = json.load(fr)
+    data = json.load(fr)
 
-w_names = w_data.keys()
+names = data.keys()
 
-for w_name in w_names:
+ttk_out_data = {}
 
-    w_firemodes = w_data[w_name].keys()
+for name in names:
 
-    for w_firemode in w_firemodes:
+    firemodes = data[name].keys()
+    ttk_fires_data = {}
+
+    for firemode in firemodes:
         # 今はバーストモードは実装しない
-        if w_firemode == "burst":
+        if firemode == "burst":
             continue
 
         i = 0
-        data = []
+        point_data = []
         while True:
-            time = i / w_data[w_name][w_firemode]["rpm"] * 60
-            total_damage = (i + 1) * w_data[w_name][w_firemode]["basicDamage"]
+            time = i / data[name][firemode]["rpm"] * 60
+            total_damage = (i + 1) * data[name][firemode]["basicDamage"]
             damage_data = {"x": time, "y": total_damage}
-            data.append(damage_data)
+            point_data.append(damage_data)
             i += 1
             if total_damage >= 225:
                 break
 
-        ttk_data = {"label": w_data[w_name][w_firemode]["jpName"],
-                    "borderColor": select_color(w_data[w_name][w_firemode]["ammo"]),
+        ttk_data = {"label": data[name][firemode]["jpName"],
+                    "borderColor": select_color(data[name][firemode]["ammo"]),
                     "steppedLine": True,
-                    "data": data}
+                    "data": point_data}
 
-        with open("../assets/" + w_name + "-" + w_firemode + "-ttk.json", "w", encoding="utf-8") as fw:
-            json.dump(ttk_data, fw, ensure_ascii=False)
+        ttk_fires_data[firemode] = ttk_data
+
+    ttk_out_data[name] = ttk_fires_data
+
+with open("../assets/ttk.json", "w", encoding="utf-8") as fw:
+    json.dump(ttk_out_data, fw, ensure_ascii=False)
 
 # i = 0
 # data = []
 # while True:
-#     time = i / w_data["g7"]["semiauto"]["rpm"] * 60
-#     total_damage = (i + 1) * w_data["g7"]["semiauto"]["basicDamage"]
+#     time = i / data["g7"]["semiauto"]["rpm"] * 60
+#     total_damage = (i + 1) * data["g7"]["semiauto"]["basicDamage"]
 #     damage_data = {"x": time, "y": total_damage}
 #     data.append(damage_data)
 #     i += 1
 #     if total_damage >= 225:
 #         break
 
-# ttk_data = {"label": w_data["g7"]["semiauto"]["jpName"],
+# ttk_data = {"label": data["g7"]["semiauto"]["jpName"],
 #             "borderColor": "#6ACEA8",
 #             "steppedLine": True,
 #             "data": data}

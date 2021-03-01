@@ -54,7 +54,17 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          success: colors.green.accent3,
+          light: '#f49a4a',
+          heavy: '#6acea8',
+          energy: '#C6DB3A',
+          shotgun: '#FE2C00',
+          sniper: '#7E85F4',
+          lightDark: '#825021',
+          heavyDark: '#336653',
+          energyDark: '#637017',
+          shotgunDark: '#810E00',
+          sniperDark: '#3C33A6',
         }
       }
     }
