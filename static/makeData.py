@@ -47,6 +47,7 @@ for name in names:
         ttk_data = {"label": data[name][firemode]["jpName"],
                     "borderColor": select_color(data[name][firemode]["ammo"]),
                     "steppedLine": True,
+                    "fill": False,
                     "data": point_data}
 
         ttk_fires_data[firemode] = ttk_data

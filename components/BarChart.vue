@@ -17,6 +17,15 @@ export default {
               },
             },
           ],
+          yAxes: [
+            {
+              type: "linear",
+              ticks: {
+                beginAtZero: true,
+                suggestedMax: 250,
+              },
+            },
+          ],
         },
         responsive: true,
         maintainAspectRatio: false,
