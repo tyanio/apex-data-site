@@ -1,14 +1,12 @@
 <script>
-import { Line } from "vue-chartjs";
-import ttkDatasets from "@/assets/ttk.json";
+import { Line, mixins } from "vue-chartjs";
+
 export default {
-  props: ["datasets"],
   extends: Line,
+  mixins: [mixins.reactiveProp],
+  props: ["chartData"],
   data() {
     return {
-      chartdata: {
-        datasets: this.datasets,
-      },
       options: {
         scales: {
           xAxes: [
@@ -26,7 +24,7 @@ export default {
     };
   },
   mounted() {
-    this.renderChart(this.chartdata, this.options);
+    this.renderChart(this.chartData, this.options);
   },
 };
 </script>
