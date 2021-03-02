@@ -114,17 +114,17 @@
         </v-row>
       </v-container>
     </v-item-group>
-    <BarChart v-bind:chart-data="dataCollection" />
+    <StepChart v-bind:chart-data="dataCollection" />
   </div>
 </template>
 
 <script>
-import BarChart from "@/components/BarChart.vue";
+import StepChart from "@/components/StepChart.vue";
 import ttkDatasets from "@/assets/ttk.json";
 
 export default {
   components: {
-    BarChart,
+    StepChart,
   },
   data() {
     return {
@@ -159,7 +159,9 @@ export default {
           _dataCollection.datasets.push(ttkDatasets.flatline.anvilReceiver);
         } else {
           _dataCollection.datasets.splice(
-            _dataCollection.datasets.indexOf(ttkDatasets.flatline.anvilReceiver),
+            _dataCollection.datasets.indexOf(
+              ttkDatasets.flatline.anvilReceiver
+            ),
             1
           );
         }
