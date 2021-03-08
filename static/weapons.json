@@ -23,8 +23,7 @@
                 null,
                 null,
                 null
-            ],
-            "hsDistance": 300
+            ]
         }
     },
     "flatline": {
@@ -51,8 +50,7 @@
                 null,
                 null,
                 null
-            ],
-            "hsDistance": 300
+            ]
         },
         "anvilReceiver": {
             "jpName": "フラットライン(アンビルレシーバー)",
@@ -78,7 +76,6 @@
                 null,
                 null
             ],
-            "hsDistance": 300,
             "ammoPerShot": 2
         }
     },
@@ -106,8 +103,7 @@
                 3.0,
                 null,
                 null
-            ],
-            "hsDistance": null
+            ]
         }
     },
     "hemlok": {
@@ -135,7 +131,6 @@
                 null,
                 null
             ],
-            "hsDistance": 300,
             "burstRounds": 3,
             "burstRpm": 930,
             "burstDelay": 0.280
@@ -163,8 +158,7 @@
                 2.85,
                 null,
                 null
-            ],
-            "hsDistance": 300
+            ]
         }
     },
     "r301": {
@@ -191,8 +185,7 @@
                 null,
                 null,
                 null
-            ],
-            "hsDistance": 300
+            ]
         },
         "anvilReceiver": {
             "jpName": "R-301(アンビル)",
@@ -218,7 +211,6 @@
                 null,
                 null
             ],
-            "hsDistance": 300,
             "ammoPerShot": 2
         }
     },
@@ -246,8 +238,711 @@
                 null,
                 null,
                 null
+            ]
+        }
+    },
+    "alternator": {
+        "fullauto": {
+            "jpName": "オルタネーター",
+            "type": "SMG",
+            "ammo": "light",
+            "basicDamage": 16,
+            "headDamage": 24,
+            "legsDamage": 13,
+            "rpm": 600,
+            "magazineSize": [
+                19,
+                22,
+                25,
+                27
             ],
-            "hsDistance": 300
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "r-99": {
+        "fullauto": {
+            "jpName": "R-99",
+            "type": "SMG",
+            "ammo": "light",
+            "basicDamage": 11,
+            "headDamage": 17,
+            "legsDamage": 9,
+            "rpm": 1080,
+            "magazineSize": [
+                20,
+                22,
+                24,
+                27
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "prowler": {
+        "burst": {
+            "jpName": "プラウラー(バースト)",
+            "type": "SMG",
+            "ammo": "special",
+            "basicDamage": 15,
+            "headDamage": 17,
+            "legsDamage": 23,
+            "rpm": null,
+            "magazineSize": [
+                20,
+                25,
+                30,
+                35
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "burstRounds": 5,
+            "burstRpm": 1260,
+            "burstDelay": 0.2
+        },
+        "fullauto": {
+            "jpName": "プラウラー(フル)",
+            "type": "SMG",
+            "ammo": "special",
+            "basicDamage": 15,
+            "headDamage": 17,
+            "legsDamage": 23,
+            "rpm": 795,
+            "magazineSize": [
+                20,
+                25,
+                30,
+                35
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "volt": {
+        "fullauto": {
+            "jpName": "ボルト",
+            "type": "SMG",
+            "ammo": "energy",
+            "basicDamage": 15,
+            "headDamage": 23,
+            "legsDamage": 12,
+            "rpm": 720,
+            "magazineSize": [
+                19,
+                21,
+                23,
+                26
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "devotion": {
+        "fullauto": {
+            "jpName": "ディボーション(フル)",
+            "type": "LMG",
+            "ammo": "energy",
+            "basicDamage": 16,
+            "headDamage": 32,
+            "legsDamage": 12,
+            "rpm": null,
+            "magazineSize": [
+                36,
+                40,
+                44,
+                48
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        },
+        "turbocharger": {
+            "jpName": "ディボーション(タボチャ)",
+            "type": "LMG",
+            "ammo": "energy",
+            "basicDamage": 16,
+            "headDamage": 32,
+            "legsDamage": 12,
+            "rpm": null,
+            "magazineSize": [
+                36,
+                40,
+                44,
+                48
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "spitfire": {
+        "fullauto": {
+            "jpName": "スピットファイア",
+            "type": "LMG",
+            "ammo": "heavy",
+            "basicDamage": 19,
+            "headDamage": 38,
+            "legsDamage": 14,
+            "rpm": 540,
+            "magazineSize": [
+                35,
+                40,
+                45,
+                55
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "l-star": {
+        "fullauto": {
+            "jpName": "L-スター",
+            "type": "LMG",
+            "ammo": "energy",
+            "basicDamage": 18,
+            "headDamage": 36,
+            "legsDamage": 14,
+            "rpm": 600,
+            "magazineSize": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "longbow": {
+        "semiauto": {
+            "jpName": "ロングボウ",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": 55,
+            "headDamage": 110,
+            "legsDamage": 44,
+            "rpm": 78,
+            "magazineSize": [
+                6,
+                8,
+                10,
+                12
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        },
+        "skullpiercer": {
+            "jpName": "ロングボウ(スカピ)",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": 55,
+            "headDamage": 138,
+            "legsDamage": 44,
+            "rpm": 78,
+            "magazineSize": [
+                6,
+                8,
+                10,
+                12
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "kraber": {
+        "semiauto": {
+            "jpName": "クレーバー",
+            "type": "SR",
+            "ammo": "special",
+            "basicDamage": 145,
+            "headDamage": 435,
+            "legsDamage": 116,
+            "rpm": 36,
+            "magazineSize": [
+                null,
+                null,
+                null,
+                4
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "tripletake": {
+        "semiauto": {
+            "jpName": "トリプルテイク",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": 23,
+            "headDamage": 46,
+            "legsDamage": 17,
+            "rpm": 72,
+            "magazineSize": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 3
+        }
+    },
+    "sentinel": {
+        "semiauto": {
+            "jpName": "センチネル",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": 70,
+            "headDamage": 140,
+            "legsDamage": 59,
+            "rpm": 37.5,
+            "magazineSize": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        },
+        "charged": {
+            "jpName": "センチネル(増幅)",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": 88,
+            "headDamage": 176,
+            "legsDamage": 79,
+            "rpm": 37.5,
+            "magazineSize": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "charge-rifle": {
+        "semiauto": {
+            "jpName": "チャージライフル",
+            "type": "SR",
+            "ammo": "sniper",
+            "basicDamage": null,
+            "headDamage": null,
+            "legsDamage": null,
+            "rpm": 30,
+            "magazineSize": [
+                8,
+                8,
+                8,
+                8
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "ammoPerShot": 2
+        }
+    },
+    "eva8": {
+        "fullauto": {
+            "jpName": "EVA-8",
+            "type": "SG",
+            "ammo": "shotgun",
+            "basicDamage": 7,
+            "headDamage": 7,
+            "legsDamage": 10,
+            "rpm": 126,
+            "magazineSize": [
+                8,
+                8,
+                8,
+                8
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 9
+        }
+    },
+    "peacekeeper": {
+        "semiauto": {
+            "jpName": "ピースキーパー",
+            "type": "SG",
+            "ammo": "shotgun",
+            "basicDamage": 10,
+            "headDamage": 13,
+            "legsDamage": 8,
+            "rpm": 60,
+            "magazineSize": [
+                5,
+                5,
+                5,
+                5
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 11
+        }
+    },
+    "mastif": {
+        "semiauto": {
+            "jpName": "マスティフ",
+            "type": "SG",
+            "ammo": "shotgun",
+            "basicDamage": 13,
+            "headDamage": 16,
+            "legsDamage": 13,
+            "rpm": 60,
+            "magazineSize": [
+                6,
+                6,
+                6,
+                6
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 8
+        }
+    },
+    "mozambique": {
+        "semiauto": {
+            "jpName": "モザンビーク",
+            "type": "HG",
+            "ammo": "shotgun",
+            "basicDamage": 15,
+            "headDamage": 23,
+            "legsDamage": 14,
+            "rpm": 132,
+            "magazineSize": [
+                4,
+                4,
+                4,
+                4
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 3
+        },
+        "hammerpoint": {
+            "jpName": "モザンビーク(ハンポ)",
+            "type": "HG",
+            "ammo": "shotgun",
+            "basicDamage": 15,
+            "headDamage": 23,
+            "legsDamage": 14,
+            "rpm": 132,
+            "magazineSize": [
+                4,
+                4,
+                4,
+                4
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "bulletsPerShot": 3,
+            "basicHealthDamage": 34,
+            "headHealthDamage": 51,
+            "legsHealthDamage": 31
+        }
+    },
+    "p2020": {
+        "semiauto": {
+            "jpName": "P2020",
+            "type": "HG",
+            "ammo": "light",
+            "basicDamage": 15,
+            "headDamage": 23,
+            "legsDamage": 14,
+            "rpm": 510,
+            "magazineSize": [
+                12,
+                14,
+                16,
+                18
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        },
+        "hammerpoint": {
+            "jpName": "P2020(ハンポ)",
+            "type": "HG",
+            "ammo": "light",
+            "basicDamage": 15,
+            "headDamage": 23,
+            "legsDamage": 14,
+            "rpm": 510,
+            "magazineSize": [
+                12,
+                14,
+                16,
+                18
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ],
+            "basicHealthDamage": 35,
+            "headHealthDamage": 53,
+            "legsHealthDamage": 32
+        }
+    },
+    "re-45": {
+        "semiauto": {
+            "jpName": "RE-45",
+            "type": "HG",
+            "ammo": "light",
+            "basicDamage": 12,
+            "headDamage": 18,
+            "legsDamage": 11,
+            "rpm": 780,
+            "magazineSize": [
+                16,
+                19,
+                22,
+                25
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        }
+    },
+    "wingman": {
+        "semiauto": {
+            "jpName": "ウィングマン",
+            "type": "HG",
+            "ammo": "heavy",
+            "basicDamage": 45,
+            "headDamage": 90,
+            "legsDamage": 41,
+            "rpm": 156,
+            "magazineSize": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
+        },
+        "skullpiercer": {
+            "jpName": "ウィングマン(スカピ)",
+            "type": "HG",
+            "ammo": "heavy",
+            "basicDamage": 45,
+            "headDamage": 101,
+            "legsDamage": 41,
+            "rpm": 156,
+            "magazineSize": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "reloadTime": [
+                null,
+                null,
+                null
+            ],
+            "noAmmoReloadTime": [
+                null,
+                null,
+                null
+            ]
         }
     }
 }
