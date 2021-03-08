@@ -4,6 +4,7 @@
 
 <script>
 import BarChart from "@/components/BarChart.vue";
+import ttkDatasets from "@/assets/200health.json";
 
 export default {
   components: {
@@ -11,19 +12,7 @@ export default {
   },
   data() {
     return {
-      dataCollection: {
-        labels: ["flatline", "R-301", "G7"],
-        datasets: [
-          {
-            data: [
-              (Math.ceil(200 / 19) * 60) / 600,
-              (Math.ceil(200 / 14) * 60) / 810,
-              (Math.ceil(200 / 34) * 60) / 240,
-            ],
-            backgroundColor: ["#6acea8", "#f49a4a", "#f49a4a"],
-          },
-        ],
-      },
+      dataCollection: ttkDatasets,
     };
   },
 };
