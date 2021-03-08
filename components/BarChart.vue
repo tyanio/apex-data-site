@@ -8,6 +8,19 @@ export default {
   data() {
     return {
       options: {
+        legend: {
+          display: false,
+        },
+        scales: {
+          yAxes: [
+            {
+              type: "linear",
+              ticks: {
+                beginAtZero: true,
+              },
+            },
+          ],
+        },
         responsive: true,
         maintainAspectRatio: false,
       },

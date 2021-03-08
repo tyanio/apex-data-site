@@ -12,27 +12,15 @@ export default {
   data() {
     return {
       dataCollection: {
-        labels: ["January", "February", "March", "April", "May"],
+        labels: ["flatline", "R-301", "G7"],
         datasets: [
           {
-            data: [28, 20, 30, 40, 50],
+            data: [Math.ceil(200 / 19) * 60 / 600, Math.ceil(200 / 14) * 60 / 810, Math.ceil(200 / 34) * 60 / 240],
             backgroundColor: [
-              "rgba(255, 99, 132, 0.2)",
-              "rgba(54, 162, 235, 0.2)",
-              "rgba(255, 206, 86, 0.2)",
-              "rgba(75, 192, 192, 0.2)",
-              "rgba(153, 102, 255, 0.2)",
-              "rgba(255, 159, 64, 0.2)",
+              "#6acea8",
+              "#f49a4a",
+              "#f49a4a",
             ],
-            borderColor: [
-              "rgba(255, 99, 132, 1)",
-              "rgba(54, 162, 235, 1)",
-              "rgba(255, 206, 86, 1)",
-              "rgba(75, 192, 192, 1)",
-              "rgba(153, 102, 255, 1)",
-              "rgba(255, 159, 64, 1)",
-            ],
-            borderWidth: 1,
           },
         ],
       },
