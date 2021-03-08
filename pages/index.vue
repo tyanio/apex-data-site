@@ -132,6 +132,7 @@ export default {
     };
   },
   methods: {
+    // dataCollectionを監視されているのが直接代入なので同じ型を作って代入する
     toggleWeapons: function (name, active) {
       var _dataCollection = { ...this.dataCollection };
       if (name == "havoc.fullauto") {
