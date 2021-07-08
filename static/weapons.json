@@ -6,7 +6,7 @@
             "ammo": "energy",
             "basicDamage": 18,
             "headDamage": 36,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 672,
             "magazineSize": [
                 24,
@@ -33,7 +33,7 @@
             "ammo": "heavy",
             "basicDamage": 19,
             "headDamage": 38,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 600,
             "magazineSize": [
                 20,
@@ -58,7 +58,7 @@
             "ammo": "heavy",
             "basicDamage": 43,
             "headDamage": 86,
-            "legsDamage": 39,
+            "limbsDamage": 39,
             "rpm": 174,
             "magazineSize": [
                 10,
@@ -86,7 +86,7 @@
             "ammo": "light",
             "basicDamage": 34,
             "headDamage": 60,
-            "legsDamage": 26,
+            "limbsDamage": 26,
             "rpm": 240,
             "magazineSize": [
                 10,
@@ -113,7 +113,7 @@
             "ammo": "heavy",
             "basicDamage": 20,
             "headDamage": 35,
-            "legsDamage": 15,
+            "limbsDamage": 15,
             "rpm": null,
             "magazineSize": [
                 10,
@@ -141,7 +141,7 @@
             "ammo": "heavy",
             "basicDamage": 20,
             "headDamage": 35,
-            "legsDamage": 15,
+            "limbsDamage": 15,
             "rpm": 384,
             "magazineSize": [
                 10,
@@ -168,7 +168,7 @@
             "ammo": "light",
             "basicDamage": 14,
             "headDamage": 28,
-            "legsDamage": 11,
+            "limbsDamage": 11,
             "rpm": 810,
             "magazineSize": [
                 18,
@@ -193,7 +193,7 @@
             "ammo": "light",
             "basicDamage": 35,
             "headDamage": 70,
-            "legsDamage": 32,
+            "limbsDamage": 32,
             "rpm": 210,
             "magazineSize": [
                 18,
@@ -221,7 +221,7 @@
             "ammo": "heavy",
             "basicDamage": 42,
             "headDamage": 74,
-            "legsDamage": 32,
+            "limbsDamage": 32,
             "rpm": 140,
             "magazineSize": [
                 6,
@@ -248,7 +248,7 @@
             "ammo": "light",
             "basicDamage": 16,
             "headDamage": 24,
-            "legsDamage": 13,
+            "limbsDamage": 13,
             "rpm": 600,
             "magazineSize": [
                 19,
@@ -275,7 +275,7 @@
             "ammo": "light",
             "basicDamage": 11,
             "headDamage": 17,
-            "legsDamage": 9,
+            "limbsDamage": 9,
             "rpm": 1080,
             "magazineSize": [
                 20,
@@ -302,7 +302,7 @@
             "ammo": "special",
             "basicDamage": 15,
             "headDamage": 17,
-            "legsDamage": 23,
+            "limbsDamage": 23,
             "rpm": null,
             "magazineSize": [
                 20,
@@ -330,7 +330,7 @@
             "ammo": "special",
             "basicDamage": 15,
             "headDamage": 17,
-            "legsDamage": 23,
+            "limbsDamage": 23,
             "rpm": 795,
             "magazineSize": [
                 20,
@@ -357,7 +357,7 @@
             "ammo": "energy",
             "basicDamage": 15,
             "headDamage": 23,
-            "legsDamage": 12,
+            "limbsDamage": 12,
             "rpm": 720,
             "magazineSize": [
                 19,
@@ -384,7 +384,7 @@
             "ammo": "energy",
             "basicDamage": 16,
             "headDamage": 32,
-            "legsDamage": 12,
+            "limbsDamage": 12,
             "rpm": null,
             "magazineSize": [
                 36,
@@ -409,7 +409,7 @@
             "ammo": "energy",
             "basicDamage": 16,
             "headDamage": 32,
-            "legsDamage": 12,
+            "limbsDamage": 12,
             "rpm": null,
             "magazineSize": [
                 36,
@@ -436,7 +436,7 @@
             "ammo": "heavy",
             "basicDamage": 19,
             "headDamage": 38,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 540,
             "magazineSize": [
                 35,
@@ -463,7 +463,7 @@
             "ammo": "energy",
             "basicDamage": 18,
             "headDamage": 36,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 600,
             "magazineSize": [
                 null,
@@ -490,7 +490,7 @@
             "ammo": "sniper",
             "basicDamage": 55,
             "headDamage": 110,
-            "legsDamage": 44,
+            "limbsDamage": 44,
             "rpm": 78,
             "magazineSize": [
                 6,
@@ -515,7 +515,7 @@
             "ammo": "sniper",
             "basicDamage": 55,
             "headDamage": 138,
-            "legsDamage": 44,
+            "limbsDamage": 44,
             "rpm": 78,
             "magazineSize": [
                 6,
@@ -542,7 +542,7 @@
             "ammo": "special",
             "basicDamage": 145,
             "headDamage": 435,
-            "legsDamage": 116,
+            "limbsDamage": 116,
             "rpm": 36,
             "magazineSize": [
                 null,
@@ -569,7 +569,7 @@
             "ammo": "sniper",
             "basicDamage": 23,
             "headDamage": 46,
-            "legsDamage": 17,
+            "limbsDamage": 17,
             "rpm": 72,
             "magazineSize": [
                 6,
@@ -597,7 +597,7 @@
             "ammo": "sniper",
             "basicDamage": 70,
             "headDamage": 140,
-            "legsDamage": 59,
+            "limbsDamage": 59,
             "rpm": 37.5,
             "magazineSize": [
                 4,
@@ -622,7 +622,7 @@
             "ammo": "sniper",
             "basicDamage": 88,
             "headDamage": 176,
-            "legsDamage": 79,
+            "limbsDamage": 79,
             "rpm": 37.5,
             "magazineSize": [
                 4,
@@ -649,7 +649,7 @@
             "ammo": "sniper",
             "basicDamage": null,
             "headDamage": null,
-            "legsDamage": null,
+            "limbsDamage": null,
             "rpm": 30,
             "magazineSize": [
                 8,
@@ -677,7 +677,7 @@
             "ammo": "shotgun",
             "basicDamage": 7,
             "headDamage": 7,
-            "legsDamage": 10,
+            "limbsDamage": 10,
             "rpm": 126,
             "magazineSize": [
                 8,
@@ -705,7 +705,7 @@
             "ammo": "shotgun",
             "basicDamage": 10,
             "headDamage": 13,
-            "legsDamage": 8,
+            "limbsDamage": 8,
             "rpm": 60,
             "magazineSize": [
                 5,
@@ -733,7 +733,7 @@
             "ammo": "shotgun",
             "basicDamage": 13,
             "headDamage": 16,
-            "legsDamage": 13,
+            "limbsDamage": 13,
             "rpm": 60,
             "magazineSize": [
                 6,
@@ -761,7 +761,7 @@
             "ammo": "shotgun",
             "basicDamage": 15,
             "headDamage": 23,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 132,
             "magazineSize": [
                 4,
@@ -787,7 +787,7 @@
             "ammo": "shotgun",
             "basicDamage": 15,
             "headDamage": 23,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 132,
             "magazineSize": [
                 4,
@@ -818,7 +818,7 @@
             "ammo": "light",
             "basicDamage": 15,
             "headDamage": 23,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 510,
             "magazineSize": [
                 12,
@@ -843,7 +843,7 @@
             "ammo": "light",
             "basicDamage": 15,
             "headDamage": 23,
-            "legsDamage": 14,
+            "limbsDamage": 14,
             "rpm": 510,
             "magazineSize": [
                 12,
@@ -873,7 +873,7 @@
             "ammo": "light",
             "basicDamage": 12,
             "headDamage": 18,
-            "legsDamage": 11,
+            "limbsDamage": 11,
             "rpm": 780,
             "magazineSize": [
                 16,
@@ -900,7 +900,7 @@
             "ammo": "heavy",
             "basicDamage": 45,
             "headDamage": 90,
-            "legsDamage": 41,
+            "limbsDamage": 41,
             "rpm": 156,
             "magazineSize": [
                 5,
@@ -925,7 +925,7 @@
             "ammo": "heavy",
             "basicDamage": 45,
             "headDamage": 101,
-            "legsDamage": 41,
+            "limbsDamage": 41,
             "rpm": 156,
             "magazineSize": [
                 5,
