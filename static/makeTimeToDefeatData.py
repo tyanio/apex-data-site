@@ -47,6 +47,9 @@ for shield in shields:
         # data_200health_firemodes = {}
 
         for firemode in firemodes:
+            # 現在使えない武器は飛ばす
+            if wdata[name][firemode]["isAvailable"] == False:
+                continue
             # データが抜けているところは飛ばす
             if wdata[name][firemode]["basicDamage"] == None or wdata[name][firemode]["rpm"] == None:
                 continue

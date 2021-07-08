@@ -856,6 +856,7 @@
     },
     "re-45": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "RE-45",
             "type": "HG",
             "ammo": "light",
@@ -883,6 +884,7 @@
     },
     "wingman": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "ウィングマン",
             "type": "HG",
             "ammo": "heavy",
