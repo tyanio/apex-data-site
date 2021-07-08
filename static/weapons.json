@@ -5,8 +5,8 @@
             "type": "AR",
             "ammo": "energy",
             "basicDamage": 18,
-            "headDamage": 36,
-            "limbsDamage": 14,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 672,
             "magazineSize": [
                 24,
@@ -15,12 +15,12 @@
                 36
             ],
             "reloadTime": [
-                null,
+                3.2,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                3.2,
                 null,
                 null
             ]
@@ -32,8 +32,8 @@
             "type": "AR",
             "ammo": "heavy",
             "basicDamage": 19,
-            "headDamage": 38,
-            "limbsDamage": 14,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 600,
             "magazineSize": [
                 20,
@@ -42,12 +42,12 @@
                 30
             ],
             "reloadTime": [
-                3.2,
+                2.4,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                3.1,
                 null,
                 null
             ]
@@ -57,8 +57,8 @@
             "type": "AR",
             "ammo": "heavy",
             "basicDamage": 43,
-            "headDamage": 86,
-            "limbsDamage": 39,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 174,
             "magazineSize": [
                 10,
@@ -67,12 +67,12 @@
                 15
             ],
             "reloadTime": [
-                3.2,
+                2.4,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                3.1,
                 null,
                 null
             ],
@@ -82,11 +82,11 @@
     "g7": {
         "semiauto": {
             "jpName": "G7スカウト",
-            "type": "AR",
+            "type": "MR",
             "ammo": "light",
             "basicDamage": 34,
-            "headDamage": 60,
-            "limbsDamage": 26,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 240,
             "magazineSize": [
                 10,
@@ -112,14 +112,14 @@
             "type": "AR",
             "ammo": "heavy",
             "basicDamage": 20,
-            "headDamage": 35,
-            "limbsDamage": 15,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": null,
             "magazineSize": [
-                10,
-                15,
                 18,
-                20
+                24,
+                27,
+                30
             ],
             "reloadTime": [
                 2.4,
@@ -140,14 +140,14 @@
             "type": "AR",
             "ammo": "heavy",
             "basicDamage": 20,
-            "headDamage": 35,
-            "limbsDamage": 15,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 384,
             "magazineSize": [
-                10,
-                15,
                 18,
-                20
+                24,
+                27,
+                30
             ],
             "reloadTime": [
                 2.4,
@@ -167,8 +167,8 @@
             "type": "AR",
             "ammo": "light",
             "basicDamage": 14,
-            "headDamage": 28,
-            "limbsDamage": 11,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.75,
             "rpm": 810,
             "magazineSize": [
                 18,
@@ -192,8 +192,8 @@
             "type": "AR",
             "ammo": "light",
             "basicDamage": 35,
-            "headDamage": 70,
-            "limbsDamage": 32,
+            "headshotMultiplier": 70,
+            "limbsMultiplier": 32,
             "rpm": 210,
             "magazineSize": [
                 18,
@@ -217,11 +217,11 @@
     "repeater": {
         "semiauto": {
             "jpName": "30-30 リピーター",
-            "type": "AR",
+            "type": "MR",
             "ammo": "heavy",
             "basicDamage": 42,
-            "headDamage": 74,
-            "limbsDamage": 32,
+            "headshotMultiplier": 1.75,
+            "limbsMultiplier": 0.85,
             "rpm": 140,
             "magazineSize": [
                 6,
@@ -247,8 +247,8 @@
             "type": "SMG",
             "ammo": "light",
             "basicDamage": 16,
-            "headDamage": 24,
-            "limbsDamage": 13,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.8,
             "rpm": 600,
             "magazineSize": [
                 19,
@@ -274,8 +274,8 @@
             "type": "SMG",
             "ammo": "light",
             "basicDamage": 11,
-            "headDamage": 17,
-            "limbsDamage": 9,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.8,
             "rpm": 1080,
             "magazineSize": [
                 20,
@@ -284,12 +284,12 @@
                 27
             ],
             "reloadTime": [
-                null,
+                1.8,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                2.45,
                 null,
                 null
             ]
@@ -301,8 +301,8 @@
             "type": "SMG",
             "ammo": "special",
             "basicDamage": 15,
-            "headDamage": 17,
-            "limbsDamage": 23,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.8,
             "rpm": null,
             "magazineSize": [
                 20,
@@ -329,8 +329,8 @@
             "type": "SMG",
             "ammo": "special",
             "basicDamage": 15,
-            "headDamage": 17,
-            "limbsDamage": 23,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.8,
             "rpm": 795,
             "magazineSize": [
                 20,
@@ -356,8 +356,8 @@
             "type": "SMG",
             "ammo": "energy",
             "basicDamage": 15,
-            "headDamage": 23,
-            "limbsDamage": 12,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.8,
             "rpm": 720,
             "magazineSize": [
                 19,
@@ -366,12 +366,12 @@
                 26
             ],
             "reloadTime": [
-                null,
+                2.0,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                2.5,
                 null,
                 null
             ]
@@ -383,8 +383,8 @@
             "type": "LMG",
             "ammo": "energy",
             "basicDamage": 16,
-            "headDamage": 32,
-            "limbsDamage": 12,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.75,
             "rpm": null,
             "magazineSize": [
                 36,
@@ -408,8 +408,8 @@
             "type": "LMG",
             "ammo": "energy",
             "basicDamage": 16,
-            "headDamage": 32,
-            "limbsDamage": 12,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.75,
             "rpm": null,
             "magazineSize": [
                 36,
@@ -435,14 +435,14 @@
             "type": "LMG",
             "ammo": "heavy",
             "basicDamage": 19,
-            "headDamage": 38,
-            "limbsDamage": 14,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.75,
             "rpm": 540,
             "magazineSize": [
                 35,
                 40,
                 45,
-                55
+                50
             ],
             "reloadTime": [
                 null,
@@ -462,11 +462,11 @@
             "type": "LMG",
             "ammo": "energy",
             "basicDamage": 18,
-            "headDamage": 36,
-            "limbsDamage": 14,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.8,
             "rpm": 600,
             "magazineSize": [
-                null,
+                23,
                 null,
                 null,
                 null
@@ -477,7 +477,7 @@
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                2.45,
                 null,
                 null
             ]
@@ -489,8 +489,8 @@
             "type": "SR",
             "ammo": "sniper",
             "basicDamage": 55,
-            "headDamage": 110,
-            "limbsDamage": 44,
+            "headshotMultiplier": 2.15,
+            "limbsMultiplier": 0.8,
             "rpm": 78,
             "magazineSize": [
                 6,
@@ -499,12 +499,12 @@
                 12
             ],
             "reloadTime": [
-                null,
+                2.66,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                3.66,
                 null,
                 null
             ]
@@ -514,8 +514,8 @@
             "type": "SR",
             "ammo": "sniper",
             "basicDamage": 55,
-            "headDamage": 138,
-            "limbsDamage": 44,
+            "headshotMultiplier": 2.5,
+            "limbsMultiplier": 0.8,
             "rpm": 78,
             "magazineSize": [
                 6,
@@ -524,12 +524,12 @@
                 12
             ],
             "reloadTime": [
-                null,
+                2.66,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                3.66,
                 null,
                 null
             ]
@@ -541,51 +541,51 @@
             "type": "SR",
             "ammo": "special",
             "basicDamage": 145,
-            "headDamage": 435,
-            "limbsDamage": 116,
+            "headshotMultiplier": 3.0,
+            "limbsMultiplier": 0.8,
             "rpm": 36,
             "magazineSize": [
-                null,
-                null,
-                null,
+                4,
+                4,
+                4,
                 4
             ],
             "reloadTime": [
-                null,
-                null,
-                null
+                3.2,
+                3.2,
+                3.2
             ],
             "noAmmoReloadTime": [
-                null,
-                null,
-                null
+                4.3,
+                4.3,
+                4.3
             ]
         }
     },
     "tripletake": {
         "semiauto": {
             "jpName": "トリプルテイク",
-            "type": "SR",
-            "ammo": "sniper",
+            "type": "MR",
+            "ammo": "special",
             "basicDamage": 23,
-            "headDamage": 46,
-            "limbsDamage": 17,
-            "rpm": 72,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.8,
+            "rpm": 78,
             "magazineSize": [
-                6,
-                7,
-                8,
+                9,
+                9,
+                9,
                 9
             ],
             "reloadTime": [
-                null,
-                null,
-                null
+                2.66,
+                2.66,
+                2.66
             ],
             "noAmmoReloadTime": [
-                null,
-                null,
-                null
+                3.66,
+                3.66,
+                3.66
             ],
             "bulletsPerShot": 3
         }
@@ -596,8 +596,8 @@
             "type": "SR",
             "ammo": "sniper",
             "basicDamage": 70,
-            "headDamage": 140,
-            "limbsDamage": 59,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.9,
             "rpm": 37.5,
             "magazineSize": [
                 4,
@@ -606,12 +606,12 @@
                 7
             ],
             "reloadTime": [
-                null,
+                3.0,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                4.0,
                 null,
                 null
             ]
@@ -621,8 +621,8 @@
             "type": "SR",
             "ammo": "sniper",
             "basicDamage": 88,
-            "headDamage": 176,
-            "limbsDamage": 79,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.9,
             "rpm": 37.5,
             "magazineSize": [
                 4,
@@ -631,12 +631,12 @@
                 7
             ],
             "reloadTime": [
-                null,
+                3.0,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                4.0,
                 null,
                 null
             ]
@@ -648,8 +648,8 @@
             "type": "SR",
             "ammo": "sniper",
             "basicDamage": null,
-            "headDamage": null,
-            "limbsDamage": null,
+            "headshotMultiplier": 1.25,
+            "limbsMultiplier": 1.0,
             "rpm": 30,
             "magazineSize": [
                 8,
@@ -658,12 +658,12 @@
                 8
             ],
             "reloadTime": [
-                null,
+                4.0,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                5.1,
                 null,
                 null
             ],
@@ -676,25 +676,17 @@
             "type": "SG",
             "ammo": "shotgun",
             "basicDamage": 7,
-            "headDamage": 7,
-            "limbsDamage": 10,
-            "rpm": 126,
-            "magazineSize": [
-                8,
-                8,
-                8,
-                8
-            ],
-            "reloadTime": [
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 1.0,
+            "rpm": [
+                126,
                 null,
                 null,
                 null
             ],
-            "noAmmoReloadTime": [
-                null,
-                null,
-                null
-            ],
+            "magazineSize": 8,
+            "reloadTime": 2.75,
+            "noAmmoReloadTime": 3.0,
             "bulletsPerShot": 9
         }
     },
@@ -703,26 +695,18 @@
             "jpName": "ピースキーパー",
             "type": "SG",
             "ammo": "shotgun",
-            "basicDamage": 10,
-            "headDamage": 13,
-            "limbsDamage": 8,
-            "rpm": 60,
-            "magazineSize": [
-                5,
-                5,
-                5,
-                5
-            ],
-            "reloadTime": [
+            "basicDamage": 9,
+            "headshotMultiplier": 1.25,
+            "limbsMultiplier": 0.8,
+            "rpm": [
+                44.4,
                 null,
                 null,
                 null
             ],
-            "noAmmoReloadTime": [
-                null,
-                null,
-                null
-            ],
+            "magazineSize": 5,
+            "reloadTime": 2.5,
+            "noAmmoReloadTime": 3.5,
             "bulletsPerShot": 11
         }
     },
@@ -731,54 +715,38 @@
             "jpName": "マスティフ",
             "type": "SG",
             "ammo": "shotgun",
-            "basicDamage": 13,
-            "headDamage": 16,
-            "limbsDamage": 13,
-            "rpm": 60,
-            "magazineSize": [
-                6,
-                6,
-                6,
-                6
-            ],
-            "reloadTime": [
+            "basicDamage": 11,
+            "headshotMultiplier": 1.25,
+            "limbsMultiplier": 1.0,
+            "rpm": [
+                66,
                 null,
                 null,
                 null
             ],
-            "noAmmoReloadTime": [
-                null,
-                null,
-                null
-            ],
+            "magazineSize": 6,
+            "reloadTime": null,
+            "noAmmoReloadTime": null,
             "bulletsPerShot": 8
         }
     },
     "mozambique": {
         "semiauto": {
             "jpName": "モザンビーク",
-            "type": "HG",
+            "type": "SG",
             "ammo": "shotgun",
             "basicDamage": 15,
-            "headDamage": 23,
-            "limbsDamage": 14,
-            "rpm": 132,
-            "magazineSize": [
-                4,
-                4,
-                4,
-                4
-            ],
-            "reloadTime": [
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.9,
+            "rpm": [
+                66,
                 null,
                 null,
                 null
             ],
-            "noAmmoReloadTime": [
-                null,
-                null,
-                null
-            ],
+            "magazineSize": 6,
+            "reloadTime": 2.1,
+            "noAmmoReloadTime": 2.6,
             "bulletsPerShot": 3
         },
         "hammerpoint": {
@@ -786,29 +754,19 @@
             "type": "HG",
             "ammo": "shotgun",
             "basicDamage": 15,
-            "headDamage": 23,
-            "limbsDamage": 14,
-            "rpm": 132,
-            "magazineSize": [
-                4,
-                4,
-                4,
-                4
-            ],
-            "reloadTime": [
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.9,
+            "rpm": [
+                66,
                 null,
                 null,
                 null
             ],
-            "noAmmoReloadTime": [
-                null,
-                null,
-                null
-            ],
+            "magazineSize": 6,
+            "reloadTime": 2.1,
+            "noAmmoReloadTime": 2.6,
             "bulletsPerShot": 3,
-            "basicHealthDamage": 34,
-            "headHealthDamage": 51,
-            "legsHealthDamage": 31
+            "basicHealthDamage": 34
         }
     },
     "p2020": {
@@ -816,15 +774,15 @@
             "jpName": "P2020",
             "type": "HG",
             "ammo": "light",
-            "basicDamage": 15,
-            "headDamage": 23,
-            "limbsDamage": 14,
-            "rpm": 510,
+            "basicDamage": 18,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.9,
+            "rpm": 420,
             "magazineSize": [
-                12,
                 14,
                 16,
-                18
+                18,
+                21
             ],
             "reloadTime": [
                 null,
@@ -842,14 +800,14 @@
             "type": "HG",
             "ammo": "light",
             "basicDamage": 15,
-            "headDamage": 23,
-            "limbsDamage": 14,
-            "rpm": 510,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.9,
+            "rpm": 420,
             "magazineSize": [
-                12,
                 14,
                 16,
-                18
+                18,
+                21
             ],
             "reloadTime": [
                 null,
@@ -861,19 +819,17 @@
                 null,
                 null
             ],
-            "basicHealthDamage": 35,
-            "headHealthDamage": 53,
-            "legsHealthDamage": 32
+            "basicHealthDamage": 35
         }
     },
     "re-45": {
-        "semiauto": {
+        "fullauto": {
             "jpName": "RE-45",
             "type": "HG",
             "ammo": "light",
             "basicDamage": 12,
-            "headDamage": 18,
-            "limbsDamage": 11,
+            "headshotMultiplier": 1.5,
+            "limbsMultiplier": 0.9,
             "rpm": 780,
             "magazineSize": [
                 16,
@@ -882,12 +838,12 @@
                 25
             ],
             "reloadTime": [
-                null,
+                1.5,
                 null,
                 null
             ],
             "noAmmoReloadTime": [
-                null,
+                1.95,
                 null,
                 null
             ]
@@ -899,14 +855,14 @@
             "type": "HG",
             "ammo": "heavy",
             "basicDamage": 45,
-            "headDamage": 90,
-            "limbsDamage": 41,
+            "headshotMultiplier": 2.0,
+            "limbsMultiplier": 0.9,
             "rpm": 156,
             "magazineSize": [
-                5,
                 6,
                 7,
-                8
+                8,
+                9
             ],
             "reloadTime": [
                 null,
@@ -924,8 +880,8 @@
             "type": "HG",
             "ammo": "heavy",
             "basicDamage": 45,
-            "headDamage": 101,
-            "limbsDamage": 41,
+            "headshotMultiplier": 2.25,
+            "limbsMultiplier": 0.9,
             "rpm": 156,
             "magazineSize": [
                 5,
