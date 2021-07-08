@@ -1,6 +1,7 @@
 {
     "havoc": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "ハボック",
             "type": "AR",
             "ammo": "energy",
@@ -28,6 +29,7 @@
     },
     "flatline": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "フラットライン",
             "type": "AR",
             "ammo": "heavy",
@@ -53,6 +55,7 @@
             ]
         },
         "anvilReceiver": {
+            "isAvailable": true,
             "jpName": "フラットライン(アンビルレシーバー)",
             "type": "AR",
             "ammo": "heavy",
@@ -81,6 +84,7 @@
     },
     "g7": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "G7スカウト",
             "type": "MR",
             "ammo": "light",
@@ -108,6 +112,7 @@
     },
     "hemlok": {
         "burst": {
+            "isAvailable": true,
             "jpName": "ヘムロック(バースト)",
             "type": "AR",
             "ammo": "heavy",
@@ -136,6 +141,7 @@
             "burstDelay": 0.280
         },
         "semiauto": {
+            "isAvailable": true,
             "jpName": "ヘムロック(セミ)",
             "type": "AR",
             "ammo": "heavy",
@@ -163,6 +169,7 @@
     },
     "r301": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "R-301(フル)",
             "type": "AR",
             "ammo": "light",
@@ -188,6 +195,7 @@
             ]
         },
         "anvilReceiver": {
+            "isAvailable": true,
             "jpName": "R-301(アンビル)",
             "type": "AR",
             "ammo": "light",
@@ -216,6 +224,7 @@
     },
     "repeater": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "30-30 リピーター",
             "type": "MR",
             "ammo": "heavy",
@@ -243,6 +252,7 @@
     },
     "alternator": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "オルタネーター",
             "type": "SMG",
             "ammo": "light",
@@ -270,6 +280,7 @@
     },
     "r-99": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "R-99",
             "type": "SMG",
             "ammo": "light",
@@ -297,6 +308,7 @@
     },
     "prowler": {
         "burst": {
+            "isAvailable": true,
             "jpName": "プラウラー(バースト)",
             "type": "SMG",
             "ammo": "special",
@@ -325,6 +337,7 @@
             "burstDelay": 0.2
         },
         "fullauto": {
+            "isAvailable": true,
             "jpName": "プラウラー(フル)",
             "type": "SMG",
             "ammo": "special",
@@ -352,6 +365,7 @@
     },
     "volt": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "ボルト",
             "type": "SMG",
             "ammo": "energy",
@@ -379,6 +393,7 @@
     },
     "devotion": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "ディボーション(フル)",
             "type": "LMG",
             "ammo": "energy",
@@ -404,6 +419,7 @@
             ]
         },
         "turbocharger": {
+            "isAvailable": true,
             "jpName": "ディボーション(タボチャ)",
             "type": "LMG",
             "ammo": "energy",
@@ -431,6 +447,7 @@
     },
     "spitfire": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "スピットファイア",
             "type": "LMG",
             "ammo": "heavy",
@@ -458,6 +475,7 @@
     },
     "l-star": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "L-スター",
             "type": "LMG",
             "ammo": "energy",
@@ -485,6 +503,7 @@
     },
     "longbow": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "ロングボウ",
             "type": "SR",
             "ammo": "sniper",
@@ -510,6 +529,7 @@
             ]
         },
         "skullpiercer": {
+            "isAvailable": false,
             "jpName": "ロングボウ(スカピ)",
             "type": "SR",
             "ammo": "sniper",
@@ -537,6 +557,7 @@
     },
     "kraber": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "クレーバー",
             "type": "SR",
             "ammo": "special",
@@ -564,6 +585,7 @@
     },
     "tripletake": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "トリプルテイク",
             "type": "MR",
             "ammo": "special",
@@ -592,6 +614,7 @@
     },
     "sentinel": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "センチネル",
             "type": "SR",
             "ammo": "sniper",
@@ -617,6 +640,7 @@
             ]
         },
         "charged": {
+            "isAvailable": true,
             "jpName": "センチネル(増幅)",
             "type": "SR",
             "ammo": "sniper",
@@ -644,6 +668,7 @@
     },
     "charge-rifle": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "チャージライフル",
             "type": "SR",
             "ammo": "sniper",
@@ -672,6 +697,7 @@
     },
     "eva8": {
         "fullauto": {
+            "isAvailable": true,
             "jpName": "EVA-8",
             "type": "SG",
             "ammo": "shotgun",
@@ -692,6 +718,7 @@
     },
     "peacekeeper": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "ピースキーパー",
             "type": "SG",
             "ammo": "shotgun",
@@ -712,6 +739,7 @@
     },
     "mastif": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "マスティフ",
             "type": "SG",
             "ammo": "shotgun",
@@ -732,6 +760,7 @@
     },
     "mozambique": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "モザンビーク",
             "type": "SG",
             "ammo": "shotgun",
@@ -750,8 +779,9 @@
             "bulletsPerShot": 3
         },
         "hammerpoint": {
+            "isAvailable": false,
             "jpName": "モザンビーク(ハンポ)",
-            "type": "HG",
+            "type": "SG",
             "ammo": "shotgun",
             "basicDamage": 15,
             "headshotMultiplier": 1.5,
@@ -771,6 +801,7 @@
     },
     "p2020": {
         "semiauto": {
+            "isAvailable": true,
             "jpName": "P2020",
             "type": "HG",
             "ammo": "light",
@@ -796,6 +827,7 @@
             ]
         },
         "hammerpoint": {
+            "isAvailable": false,
             "jpName": "P2020(ハンポ)",
             "type": "HG",
             "ammo": "light",
@@ -876,6 +908,7 @@
             ]
         },
         "skullpiercer": {
+            "isAvailable": false,
             "jpName": "ウィングマン(スカピ)",
             "type": "HG",
             "ammo": "heavy",

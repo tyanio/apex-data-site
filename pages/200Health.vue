@@ -4,7 +4,7 @@
 
 <script>
 import BarChart from "@/components/BarChart.vue";
-import ttkDatasets from "@/assets/200health.json";
+import ttkDatasets from "@/assets/200damage.json";
 
 export default {
   components: {
