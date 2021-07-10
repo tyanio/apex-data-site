@@ -32,46 +32,67 @@ def select_color(ammo_type):
 with open("weapons.json", "r", encoding="utf-8") as fr:
     wdata = json.load(fr)
 
-names = wdata.keys()
+_names = wdata.keys()
 
-shields = [0, 50, 75, 100, 125]
-health = 100
+_shields = [0, 50, 75, 100, 125]
+_health = 100
 
-for shield in shields:
+
+def cal_time_to_defeat(health, shield, basic_damage, rpm, magagine_rounds, reload_time):
+    # todo リロード時間が分からないデータが多いのでひとまずデフォルトで0にしておく
+    if reload_time == None:
+        reload_time = 0
+
+    _needs_rounds = math.ceil((health + shield) / basic_damage)
+    _needs_magagines = _needs_rounds // magagine_rounds
+
+    if _needs_magagines > 1:
+        return round((_needs_rounds - 1) * 60 / rpm + reload_time * _needs_magagines, 3)
+    else:
+        return round((_needs_rounds - 1) * 60 / rpm, 3)
+
+
+for _shield in _shields:
 
     _unsorted_data = []
 
-    for name in names:
+    for _name in _names:
 
-        firemodes = wdata[name].keys()
-        # data_200health_firemodes = {}
+        _firemodes = wdata[_name].keys()
 
-        for firemode in firemodes:
+        for _firemode in _firemodes:
             # 現在使えない武器は飛ばす
-            if wdata[name][firemode]["isAvailable"] == False:
+            if wdata[_name][_firemode]["isAvailable"] == False:
                 continue
             # データが抜けているところは飛ばす
-            if wdata[name][firemode]["basicDamage"] == None or wdata[name][firemode]["rpm"] == None:
+            if wdata[_name][_firemode]["basicDamage"] == None or wdata[_name][_firemode]["rpm"] == None:
                 continue
 
             _basic_damage = 0
             _rpm = 0
 
             # 弾がいっぱい出るやつはかける
-            if "bulletsPerShot" in wdata[name][firemode]:
-                _basic_damage = wdata[name][firemode]["basicDamage"] * wdata[name][firemode]["bulletsPerShot"]
+            if "bulletsPerShot" in wdata[_name][_firemode]:
+                _basic_damage = wdata[_name][_firemode]["basicDamage"] * wdata[_name][_firemode]["bulletsPerShot"]
             else:
-                _basic_damage = wdata[name][firemode]["basicDamage"]
+                _basic_damage = wdata[_name][_firemode]["basicDamage"]
 
             # shotgunはショットガンボルトによってRPMが変わるためとりあえずボルトなしの状態を_rpmに代入
-            if wdata[name][firemode]["type"] == "SG":
-                _rpm = wdata[name][firemode]["rpm"][0]
+            # ショットガンはマガジンサイズが固定のためそのまま取り出す
+            # リロードタイムも同様
+            if wdata[_name][_firemode]["type"] == "SG":
+                _rpm = wdata[_name][_firemode]["rpm"][0]
+                _magazine_size = wdata[_name][_firemode]["magazineSize"]
+                _reload_time = wdata[_name][_firemode]["reloadTime"]
             else:
-                _rpm = wdata[name][firemode]["rpm"]
+                _rpm = wdata[_name][_firemode]["rpm"]
+                # ひとまず拡張マガジンなしの状態で考える
+                _magazine_size = wdata[_name][_firemode]["magazineSize"][0]
+                _reload_time = wdata[_name][_firemode]["reloadTime"][0]
 
-            _each_weapon_data = [wdata[name][firemode]["jpName"],
-                                 round((math.ceil((health + shield) / _basic_damage) - 1) * 60 / _rpm, 3),
-                                 select_color(wdata[name][firemode]["ammo"])]
+            _each_weapon_data = [wdata[_name][_firemode]["jpName"],
+                                 cal_time_to_defeat(_health, _shield, _basic_damage, _rpm, _magazine_size, _reload_time),
+                                 select_color(wdata[_name][_firemode]["ammo"])]
 
             _unsorted_data.append(_each_weapon_data)
 
@@ -87,7 +108,7 @@ for shield in shields:
         }]
     }
 
-    with open("../assets/" + str(shield + health) + "damage.json", "w", encoding="utf-8") as fw:
+    with open("../assets/" + str(_shield + _health) + "damage.json", "w", encoding="utf-8") as fw:
         json.dump(data_time_to_defeat, fw, ensure_ascii=False)
 
 # i = 0
