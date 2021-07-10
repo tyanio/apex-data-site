@@ -2,7 +2,13 @@
   <v-container>
     <v-col>
       <v-btn-toggle v-model="selected" @change="toggleHealth()">
-        <v-btn icon>
+        <v-btn>Level0</v-btn>
+        <v-btn>Level1</v-btn>
+        <v-btn>Level2</v-btn>
+        <v-btn>Level3</v-btn>
+        <v-btn>Level4</v-btn>
+        <!-- アイコンボタン -->
+        <!-- <v-btn icon>
           <v-img height="36" contain src="/icon_shields/level1.png"></v-img>
         </v-btn>
         <v-btn icon>
@@ -16,8 +22,9 @@
         </v-btn>
         <v-btn icon>
           <v-img height="36" contain src="/icon_shields/level4.png"></v-img>
-        </v-btn>
+        </v-btn> -->
       </v-btn-toggle>
+      <v-slider v-model="hitRate" step="25" thumb-label ticks></v-slider>
       <BarChart v-bind:chart-data="dataCollection" />
     </v-col>
   </v-container>
@@ -37,13 +44,13 @@ export default {
   },
   data() {
     return {
+      hitRate: undefined,
       selected: undefined,
       dataCollection: {},
     };
   },
   methods: {
     toggleHealth: function () {
-      console.log(this.selected);
       switch (this.selected) {
         case 0:
           this.dataCollection = damage100Datasets;
